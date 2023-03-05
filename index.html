@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="result-container">
+    <!-- left/top container -->
+    <div class="result">
+      <h2 class="result-text text-gray fs-2">Your Result</h2>
+      <div class="circle">
+        <h1 class="scored-avg">76</h1>
+        <p class="out-of text-gray">of 100</p>
+      </div>
+      <h2 class="msg">Great</h2>
+      <p class="result-desc text-gray">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+
+    <!-- right/bottom container -->
+    <div class="summary">
+      <h2 class="summary-text fs-2">Summary</h2>
+      <div class="score-card-all">
+        <div class="card">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction">
+          <h2 class="card-title">Reaction</h2>
+          <div class="card-score">
+            <p><span class="hl">80</span> / 100</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-memory.svg" alt="memory">
+          <h2 class="card-title">Memory</h2>
+          <div class="card-score">
+            <p><span class="hl">92</span> / 100</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-verbal.svg" alt="verbal">
+          <h2 class="card-title">Verbal</h2>
+          <div class="card-score">
+            <p><span class="hl">61</span> / 100</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/icon-visual.svg" alt="visual">
+          <h2 class="card-title">Visual</h2>
+          <div class="card-score">
+            <p><span class="hl">72</span> / 100</p>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
